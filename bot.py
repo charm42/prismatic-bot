@@ -119,4 +119,4 @@ async def create_vote(ctx,
 	await bot.say("** **")
 	await bot.delete_message(ctx.message)
 
-bot.run("NTA2Mjc2OTEwOTA5NzUxMzQ3.Drf1AQ.FLCfq-i5AL9va8fST3ZRTqPgo10")
+bot.run(os.getenv('TOKEN'))
