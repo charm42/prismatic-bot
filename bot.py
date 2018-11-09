@@ -114,7 +114,7 @@ async def create_vote(ctx,
 	color=0xd3d3d3)
 	embed.add_field(name="Application URL", value="{}".format(applicationURL))
 	embed.set_footer(text="Applications bot by: Rick Johnson")
-	await bot.say("<@&507659110381256726>")
+	await bot.say("<@&510592602865795102>")
 	await bot.say(embed=embed)
 	await bot.say("** **")
 	await bot.delete_message(ctx.message)
